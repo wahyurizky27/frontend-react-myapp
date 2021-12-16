@@ -1,0 +1,88 @@
+
+.main-wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccd4da;
+    border-radius: 5px;
+}
+
+.block-company {
+    border-right: 1px solid #cdd4da;
+}
+
+.wrapper-company, .office-wrpper {
+    padding: 0 15px;
+}
+
+.btn-container {
+    padding-top: 20px;
+}
+
+.block-data-company {
+    margin: 25px 15px;
+    border-top: 1px solid #cdd4da;
+}
+
+.block-data-company h3 {
+    margin-top: 15px;
+}
+
+.main-wrapper .item-header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccd4da;
+}
+
+.main-wrapper .item {
+    border: 1px solid #cdd4da;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 30px; 
+}
+
+.main-wrapper .item-header h4 {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.main-wrapper .item-meta-data {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5px 0;
+}
+
+.main-wrapper .item-meta-data .label {
+    font-weight: bold;
+}
+
+.main-wrapper .item-header span {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.main-wrapper .item-header span:hover {
+    color: #ff071e;
+}
+
+.detail-page .title {
+	font-weight: 600;
+}
+
+.detail-page .item-content.detail-single-meta {
+    border-bottom: 1px solid #cbd4da;
+    border-top: 1px solid #cbd4da;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.detail-page .btn.btn-light {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
